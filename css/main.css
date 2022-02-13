@@ -1,0 +1,95 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    box-sizing: initial;
+}
+.header{
+    background-color:rgba(0, 0, 0, 0.95);
+    height: 60px;
+    display:flex;
+    position: sticky;
+    
+
+}
+    
+.logo img{
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+   position: relative;
+}
+
+
+.basket img{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    
+    border-radius: 50%;
+        display: flex;
+        
+    
+    
+   
+
+}
+
+
+
+.language__swap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+    
+ }
+.language__swap nav{
+    width: 50px;
+    display: inline;
+    color: white;
+    justify-content: space-between;
+    
+}
+.language__swap  li{
+    
+    display: inline;
+    
+}
+.language__swap  a{
+    
+    
+    color: rgb(255, 255, 255);
+}
+.video{
+    
+left:0;
+top:60px;
+}
+.video__item{
+   width: 100%;
+   height: auto;
+    align-items: left;
+    
+    height: 
+;
+}
+.foot{
+    height: 200px;
+    margin-top: -10px;
+    align-items: center;
+    background: black;
+}
+.foot li{
+    
+    justify-content: space-between;
+    display: inline;
+    color: white;
+    padding-left: 50px;
+    margin-left: 120px;
+}
